@@ -1,4 +1,4 @@
-# docker
+# docker setup
 #Prerequisites
 #Check Linux Kernel
 uname -r
