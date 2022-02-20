@@ -46,3 +46,8 @@ newgrp docker
 Example 6: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.24/auth: dial unix /var/run/docker.sock: connect: permission denied
 
 docker permission for linux ec2
+
+Comman commands
+
+docker rm $(docker ps -a -q)
+docker stop $(docker ps -a -q)
